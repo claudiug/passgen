@@ -10,6 +10,9 @@
 		568B76361B35D1EA008B3B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568B76351B35D1EA008B3B62 /* AppDelegate.swift */; };
 		568B76381B35D1EA008B3B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568B76371B35D1EA008B3B62 /* Assets.xcassets */; };
 		568B763B1B35D1EA008B3B62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568B76391B35D1EA008B3B62 /* MainMenu.xib */; };
+		568B76441B35D895008B3B62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568B76421B35D895008B3B62 /* MainViewController.swift */; };
+		568B76451B35D895008B3B62 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568B76431B35D895008B3B62 /* MainViewController.xib */; };
+		568B76471B35DD35008B3B62 /* GeneratePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568B76461B35DD35008B3B62 /* GeneratePassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		568B76371B35D1EA008B3B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568B763A1B35D1EA008B3B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		568B763C1B35D1EA008B3B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568B76421B35D895008B3B62 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		568B76431B35D895008B3B62 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		568B76461B35DD35008B3B62 /* GeneratePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 				568B76351B35D1EA008B3B62 /* AppDelegate.swift */,
 				568B76371B35D1EA008B3B62 /* Assets.xcassets */,
 				568B76391B35D1EA008B3B62 /* MainMenu.xib */,
+				568B76421B35D895008B3B62 /* MainViewController.swift */,
+				568B76431B35D895008B3B62 /* MainViewController.xib */,
 				568B763C1B35D1EA008B3B62 /* Info.plist */,
+				568B76461B35DD35008B3B62 /* GeneratePassword.swift */,
 			);
 			path = amazing;
 			sourceTree = "<group>";
@@ -116,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568B76381B35D1EA008B3B62 /* Assets.xcassets in Resources */,
+				568B76451B35D895008B3B62 /* MainViewController.xib in Resources */,
 				568B763B1B35D1EA008B3B62 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				568B76361B35D1EA008B3B62 /* AppDelegate.swift in Sources */,
+				568B76471B35DD35008B3B62 /* GeneratePassword.swift in Sources */,
+				568B76441B35D895008B3B62 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
