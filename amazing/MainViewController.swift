@@ -10,6 +10,10 @@ import Cocoa
 
 class MainViewController: NSWindowController {
     
+    override var windowNibName: String? {
+        return "MainViewController"
+    }
+    
     @IBOutlet weak var textField: NSTextField!
 
     override func windowDidLoad() {
@@ -18,7 +22,7 @@ class MainViewController: NSWindowController {
     }
     
     @IBAction func generatePassword(sender: AnyObject) {
-        let lenght = 8
+        let lenght = 10
         let password = generatePasswordString(lenght)
         textField.stringValue = password
     }
